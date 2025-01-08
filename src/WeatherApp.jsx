@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 export const WeatherApp = () => {
 
     const urlBase = 'https://api.openweathermap.org/data/2.5/weather';
-    const API_KEY = '894d45ccd243a292809c10a19c64532c';
+    const API_KEY = 'API_KEY';
     const difKelvin = 273.15;
     const [ciudad, setCiudad] = useState('');
     const [dataClima, setDataClima] = useState(null);
